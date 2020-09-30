@@ -6,3 +6,19 @@ node -v
 npm -v
 
 Убедится что установлен gulp 4й версии.
+
+1. Git 
+- git status
+- git add
+- git commit -m
+- git push
+- git branch
+- git checkout
+- git merge
+
+2. Gulp
+- Установка галпа и плагинов
+- Autoprefixer автоматически подставляет префиксы в стили для всех браузеров 
+  настройки в файле .browserslistrc
+- sourcemaps организует удобный дебаг джаваскрипта сохраняя код до    групировки  и сжатия
+
