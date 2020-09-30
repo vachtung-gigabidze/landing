@@ -4,7 +4,6 @@ node_modules
 npm-debug.log
 .DS_Store
 package-lock.json
-package.json
 ### Windows template
 # Windows image file caches
 Thumbs.db
