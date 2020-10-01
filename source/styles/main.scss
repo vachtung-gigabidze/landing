@@ -1,10 +1,12 @@
 @import "../../node_modules/normalize.scss/normalize";
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
 
+@import "global/mixins";
 @import "global/fonts";
 @import "global/vars";
 @import "global/base";
 @import "global/common";
 @import "global/sprite";
-@import "global/button.scss";
+@import "global/button";
+
 @import "sections/header";
