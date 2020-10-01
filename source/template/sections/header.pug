@@ -1,1 +1,24 @@
-header.pug
+header.header
+    .header__top
+        .container
+            .contacts
+                a.contact(href="tel:+3806399999999")   
+                    i.fa.fa-mobile.contact__icon(aria-hidden="true")
+                    span.contact__text 6343 434343
+                a.containera.contact(href="mailto:info@buisness.co")   
+                    i.fa.fa-envelope.contact__icon.contact__icon--email(aria-hidden="true")
+                    span.contact__text info@buisness.co
+                a.containera.contact(href="vkontakte.ru")   
+                    i.fab.fa-vk(aria-hidden="true")
+    .container
+        .header__botton                    
+            .logo: img.logo__picture(src="images/logo.png" alt="picture")
+            nav.nav
+            - var items = ['Home', 'About us', 'Out Work']
+                each item in items
+                    if item === 'Home'
+                        a.nv__link.nav__link--active(href="#")=item
+                    else
+                        a.nv__link(href="#")=item
+
+            a.button.header__button.button--red(href='#') Free Consultation
