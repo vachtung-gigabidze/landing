@@ -54,7 +54,7 @@
     }
   
     &__step {
-      //@include centerer-y();
+      @include centered-y();
   
       right: -58px;
       width: 103px;
